@@ -30,7 +30,7 @@ using ch.cyberduck.ui.browser;
 using Ch.Cyberduck.Core;
 using java.security;
 using java.util;
-using static Ch.Cyberduck.ImagesHelper;
+using static Ch.Cyberduck.ImageHelper;
 
 namespace Ch.Cyberduck.Ui.Controller
 {
