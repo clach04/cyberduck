@@ -25,8 +25,8 @@ using ch.cyberduck.core.features;
 using ch.cyberduck.core.threading;
 using ch.cyberduck.core.worker;
 using ch.cyberduck.ui.browser;
-using Ch.Cyberduck.Ui.Core.Resources;
 using java.util;
+using static Ch.Cyberduck.ImagesHelper;
 
 namespace Ch.Cyberduck.Ui.Controller
 {
@@ -52,7 +52,7 @@ namespace Ch.Cyberduck.Ui.Controller
             }
         }
 
-        public override Image IconView => IconCache.IconForName("folderplus", 64);
+        public override Image IconView => Images.FolderPlus.Size(64);
 
         protected bool HasLocation()
         {
